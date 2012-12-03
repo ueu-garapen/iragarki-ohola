@@ -34,9 +34,6 @@ import android.os.Message;
 import android.text.Editable;
 import android.text.TextWatcher;
 import android.view.LayoutInflater;
-//import android.view.Menu;
-//import android.view.MenuItem;
-//import android.view.KeyEvent;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.BaseAdapter;
@@ -54,7 +51,6 @@ import java.net.SocketTimeoutException;
 import java.net.UnknownHostException;
 
 import org.ueu.uninet.it.data.IragarkiEskuratzailea;
-//import org.ueu.uninet.it.Konstanteak;
 import org.ueu.uninet.it.data.Iragarkia;
 
 import com.tekle.oss.android.connectivity.NetworkConnectivity;
@@ -73,7 +69,7 @@ public class IragarkiZerrenda extends ListActivity implements
 	private ProgressDialog progressDialog;
 	private ArrayList<Iragarkia> iragarkiak;
 
-	//Kategoria bakoitzeko zeernda bat
+	//Kategoria bakoitzeko zerrenda bat
 	private ArrayList<Iragarkia> iragarkiakLana;
 	private ArrayList<Iragarkia> iragarkiakEtxeak;
 	private ArrayList<Iragarkia> iragarkiakBidaiak;
