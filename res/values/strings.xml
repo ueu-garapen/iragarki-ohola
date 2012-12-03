@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, Iragarki_ohola!</string>
+    <string name="app_name">Iragarki-ohola</string>
+    <string name="form_izena">Izena</string>
+    <string name="form_eposta">E-posta</string>
+    <string name="form_telefonoa">Telefonoa</string>
+    <string name="form_mezua">Esan beharrekoa</string>
+    <string name="form_bidali">Bidali</string>
+    <string name="form_ohar_legala_testua">Jakinarazi nahi dizugu Datu Pertsonalen Babeserako 15/1999 Lege Organikoan aurreikusitakoaren arabera, zure datuak &quot;Kudeaketa&quot; izeneko fitxategian sartuko direla. Datu pertsonalak biltzearen xedea soil-soilik da UEUren http://www.unibertsitatea.net web gunearekin duzun harremana kudeatzea. Eskubidea daukazu datuok ikusi, zuzendu, ezabatu edo aurka egiteko, honako helbide honetara idatziz: UEU, Erribera kalea 14, 48005 Bilbo edota helbide elektroniko honetara idatziz: ataria@ueu.org</string>
+    <string name="form_ohar_legala">Web gune honen erabiltzaileak hemen azaldutakoa ulertu eta borondatez onartzen du</string>
+    <string name="form_errobota">Erantzun galdera honi, erroboten mezuak ekiditeko sistema da hau\nZenbat dira hamar gehi bi? (idatzi zenbakiak erabiliz)</string>
+    <string name="imageButtonEtxeak">Etxeak</string>
+    <string name="imageButtonBidaiak">Bidaiak</string>
+    <string name="imageButtonLana">Lana</string>
+    <string name="imageButtonPraktikak">Praktikak</string>
+    <string name="imageButtonSalerosi">Salerosi</string>
+    <string name="imageButtonKotxea">Kotxea</string>
+    <string name="formBilatu">Bilatu</string>
+    <string name="form_harremanetarako_testua">Iragarkia jarri duenarekin harremanetan jartzeko bete formulario hau</string>
+    <string name="imageIrudiarekin">Iragarkia argazkiarekin</string>
+    <string name="WebServiceURL">http://10.0.2.2</string>
+    <string name="atala">Atala</string>
+    <string name="izenburua">Izenburua</string>
+    <string name="deskribapena">Deskribapena</string>
+    <string name="irudia">Irudia</string>
+    <string name="irudiaren_tab">Iragarkirako irudia</string>
+    <string name="botoiaHautatu">Hautatu</string>
+    <string name="form_zureizena">Zure izena</string>
+    <string name="search_hint">Bilatu iragarkia</string>
+    <string name="menu_bilatu">iragazi</string>
+    <string name="hint_iragazi">iragazi</string>
+    <string name="bilatu_ikonoa_desk">Bilatu ikonoa</string>
+    <string name="iragarki_berri_botoia">Iragarki berria</string>
+    <string name="bilaketa_hutsa">Ez da ezer aurkitu</string>
+    <string name="iragarki_irudia_alt">Iragarkiaren irudia</string>
+
+</resources>

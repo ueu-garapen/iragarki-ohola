@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="fill"
+    android:fillViewport="true"
+    android:fitsSystemWindows="true"
+    android:gravity="fill" >
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/linearLayout1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/atala"
+            android:textStyle="bold" />
+
+        <Spinner
+            android:id="@+id/spinnerAtala"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:layout_weight="1"
+            android:paddingRight="10dp" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/izenburua"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/editTextIzenburua"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:layout_weight="1"
+            android:inputType="text"
+            android:paddingRight="10dp" >
+
+            <requestFocus />
+        </EditText>
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/deskribapena"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/editTextDeskribapena"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:layout_weight="1"
+            android:inputType="textMultiLine"
+            android:minLines="3"
+            android:paddingRight="10dp" >
+        </EditText>
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/irudia"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/ImageView"
+            android:layout_width="172dp"
+            android:layout_height="94dp"
+            android:layout_gravity="center_horizontal"
+            android:maxHeight="100dp" android:contentDescription="@string/irudiaren_tab" android:visibility="gone"/>
+
+        <RelativeLayout
+            android:id="@+id/relativeLayout1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <Button
+                android:id="@+id/Upload"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentLeft="true"
+                android:text="@string/botoiaHautatu" />
+
+        </RelativeLayout>
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/form_zureizena"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/editTextIzena"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:layout_weight="1"
+            android:inputType="text"
+            android:paddingRight="10dp" >
+        </EditText>
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/form_eposta"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/editTextEposta"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:layout_weight="1"
+            android:inputType="textEmailAddress"
+            android:paddingRight="10dp" >
+        </EditText>
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/form_telefonoa"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/editTextTelefonoa"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:inputType="phone"
+            android:paddingRight="10dp" >
+        </EditText>
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/form_errobota"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/editTextErrobota"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:inputType="number"
+            android:paddingRight="10dp" >
+        </EditText>
+
+        <CheckBox
+            android:id="@+id/checkBoxlegalAdviceBidali"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/form_ohar_legala"
+            android:textSize="12dp" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/form_ohar_legala_testua"
+            android:textSize="10dp" />
+        
+        <Button
+            android:id="@+id/iragarkiaBidali"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="@string/form_bidali" />
+
+    </LinearLayout>
+
+</ScrollView>
