@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<array name="iragarki_kategoriak">		       
+		<item>Bidaiak</item>		       
+		<item>Etxeak</item>		       
+		<item>Kotxea</item>		       
+		<item>Lana</item>		       
+		<item>Praktikak</item>
+		<item>Salerosi</item>
+	</array>	
+</resources>

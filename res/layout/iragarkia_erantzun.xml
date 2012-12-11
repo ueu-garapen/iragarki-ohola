@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="fill"
+    android:fillViewport="true"
+    android:fitsSystemWindows="true"
+    android:gravity="fill" >
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/mainlayout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/izenburualayout"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/izenburuaIragarkia"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="1dp"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/laranja"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/laburpenaIragarkia"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <RelativeLayout
+            android:id="@+id/iragarkia_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <ImageView
+                android:id="@+id/iragarki_irudia"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="10dp"
+                android:contentDescription="@string/iragarki_irudia_alt" android:visibility="gone"/>
+            
+            <TextView
+            android:id="@+id/laburpen_luzea"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:layout_alignParentTop="true"
+            android:layout_toRightOf="@id/iragarki_irudia"/>
+
+        </RelativeLayout>
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="10dp"
+            android:text="@string/form_harremanetarako_testua"
+            android:textColor="@color/laranja"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/form_izena"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/formIzena"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:inputType="textPersonName" >
+        </EditText>
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/form_eposta"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/formEposta"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:inputType="textEmailAddress" >
+        </EditText>
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/form_telefonoa"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/formTelefonoa"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:inputType="phone" >
+        </EditText>
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/form_mezua"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/formMezua"
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_marginRight="10dp"
+            android:layout_weight="0.26"
+            android:gravity="top"
+            android:inputType="textMultiLine" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/form_errobota"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/formErrobota"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:inputType="number" >
+        </EditText>
+
+        <CheckBox
+            android:id="@+id/checkBoxlegalAdvice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/form_ohar_legala"
+            android:textSize="12dp" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/form_ohar_legala_testua"
+            android:textSize="10dp" />
+
+        <Button
+            android:id="@+id/buttonBidali"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/form_bidali" />
+    </LinearLayout>
+
+</ScrollView>

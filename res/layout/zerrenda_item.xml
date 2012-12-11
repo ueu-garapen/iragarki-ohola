@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/IragarkiZerrendaBeltza"
+    android:id="@+id/item_layout">
+    	
+	<TextView android:id="@+id/data"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/ZerrendaItemData" />
+	
+	<TextView android:id="@+id/edukia" android:gravity="left"
+		android:layout_below="@id/data"
+		style="@style/ZerrendaItem" />	
+		
+	<TextView
+	    android:id="@+id/atala"
+	    android:layout_below="@id/edukia"
+	    style="@style/ZerrendaItem" />
+
+	<ImageView
+	    android:id="@+id/backgroundItem"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_alignParentRight="true"
+	    android:layout_alignParentTop="true"
+	    android:contentDescription="@string/imageIrudiarekin"
+	    android:maxHeight="26px"
+	    android:maxWidth="37px"
+	    android:src="@android:drawable/ic_menu_camera"
+	    android:visibility="invisible" />
+
+</RelativeLayout>
