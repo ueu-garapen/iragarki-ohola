@@ -1,0 +1,5 @@
+
+    <menu xmlns:android="http://schemas.android.com/apk/res/android">
+        <item android:id="@+id/menu_laguntza" android:title="@string/menu_item_laguntza" android:icon="@android:drawable/ic_menu_help"></item>
+        <item android:id="@+id/menu_honiburuz" android:title="@string/menu_item_honiburuz" android:icon="@android:drawable/ic_menu_info_details"></item>
+    </menu>

@@ -1,0 +1,97 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/scrollView1"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+        
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/linearLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/honiburuz_izenburua"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="Iragarki-ohola -- Unibertsitatea.net"
+            style="@android:style/TextAppearance.Medium" >
+
+            <requestFocus />
+        </TextView>
+
+        <TextView
+            android:id="@+id/bertsioa"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:gravity="center"
+            android:text="@string/version" >
+
+        </TextView>                
+
+        <ImageView
+            android:id="@+id/imageUninetLogoa"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:src="@drawable/uninet_logo"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:contentDescription="Uninet logoa" />
+
+        <TextView
+            android:id="@+id/babeslea"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:layout_weight="2"
+            android:gravity="left"
+            android:text="Babeslea"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:textSize="12dp" >          
+
+        </TextView>        
+        
+        <ImageView
+            android:id="@+id/imageBabesleaLogoa"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:src="@drawable/armarria_aldundia_gipuzkoa_az"
+            android:contentDescription="Gipuzkoako Foru Aldundia logoa" />
+
+        <TextView
+            android:id="@+id/laguntzaile"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_weight="2"
+            android:gravity="left"
+            android:text="Hizkuntza Politikarako Sailburuordetzak diruz lagundutakoa:"
+            android:textSize="12dp" >
+
+        </TextView>          
+		<ImageView
+            android:id="@+id/imageBabesleaLogoa2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="5dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:src="@drawable/eusko_jaurlaritza_logoa"
+            android:contentDescription="Eusko Jaurlaritza logoa" />
+          
+    </LinearLayout>
+</ScrollView>    

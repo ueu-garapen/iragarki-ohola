@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="laguntza">
+        <![CDATA[
+        <html><body style="background-color:black;color:white;">
+        <h1>Deskribapena</h1>
+        <p style="text-align:justify">Iragarkien ohola" aplikazioa post-it interaktiboa da. Ikasleek, irakasleek, gazteek, helduek, edozein pertsonak bere iragarki laburrak idatzi eta zabaltzeko baliagarria den aplikazioa. Zuzenean zure sakelakotik <a href="http://www.unibertsitatea.net">www.unibertsitatea.net</a> webgunean editatu ahal izango dituzu iragarkiak. 
+		Hauek zabaltzeaz gain, "Iragakien ohola"ren bidez jaso ere egingo dituzu zure mugikorrean eta harremanetan jar zaitezke egilearekin.</p>
+		</body></html>
+		]]>
+    </string>
+</resources>

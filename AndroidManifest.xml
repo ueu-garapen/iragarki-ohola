@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="org.ueu.uninet.it"
+    android:versionCode="3"
+    android:versionName="@string/version" android:installLocation="preferExternal">
+
+    <uses-sdk android:minSdkVersion="8" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:name="IragarkiOholaApplication"
+        android:icon="@drawable/logo"
+        android:label="@string/app_name" >
+        <activity
+            android:name=".IragarkiakBilatu"
+            android:label="Iragarki-ohola -- Bilatu" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".IragarkiOholaKontaktua"
+            android:label="Iragarki-ohola -- Harremanetan" >
+        </activity>
+        <activity 
+            android:name="IragarkiZerrenda"
+            android:label="Iragarki-ohola -- Zerrenda" >
+        </activity>
+        <activity 
+            android:name="SarreErroreaDialog"
+            android:label="Iragarki-ohola -- Errorea sare konexioan" >
+        </activity>        
+        <activity
+            android:name="IragarkiaBidali"
+            android:label="Iragarki-ohola -- Bidali" >
+        </activity>
+        <activity
+            android:name="IragarkiaHoniburuz"
+            android:label="Iragarki-ohola -- Honi buruz" >
+        </activity>
+        <activity
+            android:name="IragarkiaLaguntza"
+            android:label="Iragarki-ohola -- Laguntza" >
+        </activity>
+        </application>
+
+</manifest>

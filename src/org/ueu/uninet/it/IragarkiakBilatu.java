@@ -25,12 +25,15 @@ import android.content.ActivityNotFoundException;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.os.Bundle;
+import android.view.MenuInflater;
+import android.view.MenuItem;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ImageButton;
 import android.widget.Toast;
+import android.view.Menu;
 
 import com.tekle.oss.android.connectivity.NetworkConnectivity;
 import com.tekle.oss.android.connectivity.NetworkMonitorListener;
@@ -154,6 +157,37 @@ public class IragarkiakBilatu extends Activity implements
 		NetworkConnectivity.sharedNetworkConnectivity().startNetworkMonitor();
 		
 	}
+	
+	// Menua XML fitxategia hasieratu (menu.xml)
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu)
+    {
+        MenuInflater menuInflater = getMenuInflater();
+        menuInflater.inflate(R.menu.menua, menu);
+        return true;
+    }
+    
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item)
+    {
+        switch (item.getItemId())
+        {
+        	case R.id.menu_laguntza:
+				Intent intent_laguntza = new Intent(getApplicationContext(),
+						IragarkiaLaguntza.class);
+				startActivity(intent_laguntza);        		
+        		return true;
+ 
+        	case R.id.menu_honiburuz:
+				Intent intent_honiburuz = new Intent(getApplicationContext(),
+						IragarkiaHoniburuz.class);
+				startActivity(intent_honiburuz);        		
+        		return true;
+  
+        	default:
+        		return super.onOptionsItemSelected(item);
+        }
+    }        
 
 	@Override
 	public void onPause() {

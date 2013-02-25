@@ -35,5 +35,7 @@
     <string name="iragarki_berri_botoia">Iragarki berria</string>
     <string name="bilaketa_hutsa">Ez da ezer aurkitu</string>
     <string name="iragarki_irudia_alt">Iragarkiaren irudia</string>
-
+    <string name="menu_item_laguntza">Laguntza</string>
+    <string name="menu_item_honiburuz">Honi buruz</string>
+    <string name="version">1.02</string>
 </resources>

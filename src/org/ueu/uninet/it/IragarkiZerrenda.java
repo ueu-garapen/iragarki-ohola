@@ -197,7 +197,7 @@ public class IragarkiZerrenda extends ListActivity implements
 				.addNetworkMonitorListener(this);
 		int kategoria = getIntent().getIntExtra("kategoria",
 				Konstanteak.BILAKETA);
-		String izenburua = (String) this.getTitle() + " -- " + Konstanteak.KATEGORIAK[kategoria];
+		String izenburua = (String) this.getTitle() + " -- Honi buruz";
 		this.setTitle(izenburua);
 	}
 
